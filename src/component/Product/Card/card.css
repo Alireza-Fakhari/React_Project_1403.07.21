@@ -1,0 +1,162 @@
+@font-face {
+  font-family: IranYekan;
+  src: url(../../font/iranyekanwebmedium.woff);
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: IranYekan;
+  src: url(../../font/iranyekanwebextrabold.woff);
+  font-weight: 500;
+  font-style: normal;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 5rem;
+  font-size: 4rem;
+}
+
+.all-products {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.product {
+  overflow: hidden;
+  background: #ffffff;
+  color: #21201e;
+  text-align: center;
+  width: 280px;
+  height: 400px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.2rem;
+  margin: 0.5rem;
+  border: 1px solid #a2a2aa;
+}
+
+.product .product-title,
+.product .product-price {
+  height: 33.6px;
+  overflow: hidden;
+  font-size: 0.75rem;
+  font-family: IranYekan;
+}
+
+.product:hover img {
+  scale: 1.1;
+}
+
+.product:hover {
+  box-shadow: 5px 15px 25px #eeeeee;
+}
+
+.product img {
+  border-radius: 0.6rem;
+  height: 200px;
+  margin: 1rem;
+  transition: all 0.3s;
+}
+
+.product a:link,
+.product a:visited {
+  color: #ececec;
+  display: inline-block;
+  text-decoration: none;
+  background-color: #ed1844;
+  padding: 1rem 3rem 1.2rem 3rem;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  font-family: IranYekan;
+  font-size: 12px;
+  transition: all 0.2s;
+}
+
+.product a:hover {
+  transform: scale(1.1);
+}
+
+.product .product-title {
+  overflow: hidden;
+  height: 24px;
+}
+
+#head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 25px;
+  padding: 20px 50px;
+  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+}
+
+#menu {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#menu nav {
+  margin-left: 30px;
+}
+
+#menu ul {
+  display: flex;
+}
+
+#menu li {
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 34px;
+  font-weight: 700;
+  padding: 0 15px;
+}
+
+#menu img {
+  /* width: 235px; */
+  height: 42px;
+}
+
+#btn {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+#btn #login,
+#but_buy {
+  background-color: transparent;
+  color: #885df1;
+  border: 1px solid #885df1;
+  font-weight: 500;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 14px;
+  display: block;
+  line-height: 34px;
+  padding: 0 20px;
+  transition: 200ms ease;
+}
+
+#btn #login:hover {
+  background-color: #885df1;
+  color: #fff;
+}
+
+#btn #but_buy {
+  background-color: #885df1;
+  color: #fff;
+  margin-right: 20px;
+}
+
+#btn #but_buy:hover {
+  background-color: #662eed;
+  border: 1px solid #662eed;
+}

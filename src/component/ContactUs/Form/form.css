@@ -1,0 +1,207 @@
+@font-face {
+  font-family: IranYekan;
+  src: url(../../font/iranyekanwebmedium.woff);
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: IranYekan;
+  src: url(../../font/iranyekanwebextrabold.woff);
+  font-weight: 500;
+  font-style: normal;
+}
+.w-100 {
+  width: 100%;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+.flex-fill {
+  flex: 1 1 auto !important;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-start {
+  justify-content: start;
+}
+
+.justify-content-end {
+  justify-content: flex-end;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.form-size {
+  width: 100%;
+  max-width: 1280px;
+  padding: 24px 24px 0 24px;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.form-size-border {
+  margin-bottom: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid #f0f0f1;
+  border-radius: 16px;
+}
+
+.form-title {
+  margin-bottom: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.form-line {
+  margin-top: 8px;
+  background-color: #ef394e;
+  width: 5.6rem;
+  height: 0.2rem;
+}
+
+.form-title-p {
+  font-family: IranYekan;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 2.1;
+}
+
+.form-info {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #f0f0f1;
+}
+
+.form-info-text {
+  color: #3f4064;
+  font-family: IranYekan;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 2.17;
+}
+
+.form-info-button {
+  border: 1px solid #19bfd3;
+  color: #19bfd3;
+  padding: 0.25rem 1rem;
+  font-family: IranYekan;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 2.17;
+  border-radius: 0.5rem;
+}
+
+form {
+  flex-wrap: wrap;
+  column-gap: 15px;
+}
+
+.form-info-topic,
+.form-info-name,
+.form-info-email,
+.form-info-number,
+.form-info-order-number {
+  margin-top: 1rem;
+  width: 587.2px;
+}
+
+.form-info-txt {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.form-info-topic-title,
+.form-info-name-title,
+.form-info-email-title,
+.form-info-number-title,
+.form-info-order-number-title,
+.form-info-txt-title {
+  margin-bottom: 0.5rem;
+  font-family: IranYekan;
+  font-weight: 400;
+  line-height: 2.15;
+  font-size: 14px;
+}
+
+.form-info-topic-input,
+.form-info-name-input,
+.form-info-email-input,
+.form-info-number-input,
+.form-info-order-number-input {
+  width: 100%;
+  height: 3.1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #e0e0e2;
+  padding: 0 0.5rem;
+}
+
+.form-info-txt-input {
+  width: 100%;
+  height: 129px;
+  border-radius: 0.5rem;
+  border: 1px solid #e0e0e2;
+  padding: 0 0.5rem;
+}
+
+.form-info-upload {
+  border: 1px dashed #e0e0e2;
+  padding: 20px 8px;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.form-info-upload-text {
+  color: #62666d;
+  font-family: IranYekan;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 2.17;
+  text-align: center;
+}
+
+.form-info-upload-button-style {
+  border: 1px solid #ef4056;
+  background-color: transparent;
+  color: #ef4056;
+  font-family: IranYekan;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 2.17;
+  padding: 0.5rem 1rem;
+  margin-top: 40px;
+  border-radius: 0.5rem;
+}
+
+.sub-form {
+  margin-top: 12px;
+}
+
+.sub-form button {
+  background-color: #ef4056;
+  border: 1px solid #ef4056;
+  border-radius: 8px;
+  color: #fff;
+  padding: 12px 16px;
+  font-family: IranYekan;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 2.15;
+}

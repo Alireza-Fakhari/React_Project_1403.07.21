@@ -1,0 +1,137 @@
+@font-face {
+  font-family: IranYekan;
+  src: url(../../font/iranyekanwebmedium.woff);
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: IranYekan;
+  src: url(../../font/iranyekanwebextrabold.woff);
+  font-weight: 500;
+  font-style: normal;
+}
+.w-100 {
+  width: 100%;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+.flex-fill {
+  flex: 1 1 auto !important;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-start {
+  justify-content: start;
+}
+
+.justify-content-end {
+  justify-content: flex-end;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.main-header {
+  background-color: #fff;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.logo {
+  margin-left: 20px;
+}
+
+.logo img {
+  width: 195px;
+  height: 30px;
+  line-height: 0;
+}
+
+.search-box {
+  margin-left: auto;
+}
+
+.search-box-input {
+  width: 600px;
+}
+.search-box-part {
+  background-color: #f0f0f1;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 0.5rem;
+  height: 44px;
+}
+.search-icon {
+  cursor: pointer;
+}
+
+.search-icon img {
+  width: 24px;
+  height: 24px;
+  fill: #a1a3a8;
+}
+.search-text {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.search-text-part {
+  font-family: IranYekan;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 2.17;
+  color: #81858b;
+}
+
+.login-button {
+  border: 1px solid #e0e0e2;
+  background-color: transparent;
+  color: #0c0c0c;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 2.17;
+  border-radius: 0.5rem;
+  height: 40px;
+}
+
+.login-text {
+  font-family: IranYekan;
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 2.17;
+}
+
+.login-icon {
+  margin-left: 8px;
+}
+
+.margin-span {
+  display: block;
+  background-color: #e0e0e2;
+  margin-left: 12px;
+  margin-right: 12px;
+  width: 1px;
+  height: 24px;
+}
+
+.cart-link{
+  padding: 8px;
+}
